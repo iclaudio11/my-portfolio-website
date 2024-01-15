@@ -115,6 +115,7 @@
 }
 
 @media screen and (max-width: 550px) {
+
   .contact-info-container p,
   .nav-links li a {
     font-size: 0.9rem;
@@ -135,57 +136,3 @@
   }
 }
 
-@media screen and (max-width: 500px) {
-  .contact-info-container p,
-  .nav-links li a {
-    font-size: 0.9rem;
-  }
-
-  .nav-links {
-    gap: 0.8rem;
-  }
-
-  .logo {
-    font-size: 1.5rem;
-  }
-  .article-container-2 {
-    justify-content: space-between;
-  }
-  section {
-    padding-top: 13vh;
-  }
-}
-
-@media screen and (max-width: 440px) {
-  .nav-links {
-    position: absolute;
-    box-shadow: 0 1px 1px rgba(0, 0, 0, 0.05);
-    margin-top: 37px;
-    margin-left: 70px;
-    flex-direction: column;
-    background-color: white;
-    height: 0vh;
-    overflow: hidden;
-    transition: all 0.6s cubic-bezier(.215, .61, .355, 1);
-  }
-}
-
-@media screen and (max-width: 420px) {
-  .nav-links {
-    position: absolute;
-    box-shadow: 0 1px 1px rgba(0, 0, 0, 0.05);
-    margin-top: 37px;
-    margin-left: 42px;
-    flex-direction: column;
-    background-color: white;
-    height: 0vh;
-    overflow: hidden;
-    transition: all 0.6s cubic-bezier(.215, .61, .355, 1);
-  }
-
-  li {
-    padding-left: 20px;
-    padding-right: 20px;
-    padding-bottom: 3px;
-  }
-}

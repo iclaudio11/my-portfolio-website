@@ -45,9 +45,3 @@ nav {
 .logo:hover {
   cursor: default;
 }
-
-.hamburger-icon {
-  position: absolute;
-  height: 0vh;
-  overflow: hidden;
-}
