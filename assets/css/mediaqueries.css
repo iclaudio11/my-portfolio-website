@@ -188,15 +188,4 @@
     padding-right: 20px;
     padding-bottom: 3px;
   }
-
-  .menu-open .hamburger-icon span:nth-child(1){
-    transform: rotate(45deg) translateY(11px); 
-  }
-  .menu-open .hamburger-icon span:nth-child(2){
-    transform: rotate(-45deg) translateY(-11px); 
-  }
-
-  .menu-open .nav-links {
-    height: 23vh;
-  }
 }
